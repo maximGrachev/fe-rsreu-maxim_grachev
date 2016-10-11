@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 	<head>
-		<meta charset="utf-8">
+		<meta charset="utf-8" />
 		<title>Task 1</title>
 	</head>
 	
@@ -30,14 +30,14 @@
 				<li>Blogs</li>
 			</ul>
 		</ol>
-		<p style="margin-bottom: 1px"><em>Tag</em></p>
-		<p style="text-indent: 40px; margin-top: 1px; margin-bottom: 1px">element of Hypertext Markup Language</p>
-		<p style="margin-top: 1px; margin-bottom: 1px"><em>The Semantic Web</em></p>
-		<p style="text-indent: 40px; margin-top: 1px">This direction of development of the World Wide Web, the aim of which is to provide information in a form switable for machine processing</p>
-		<hr>
-		<h4 align="center">CSS Generated content for pseudo-elements</h4>
-		
-		<table border="1px"
+		<dl>
+			<dt></em>Tag</em></dt>
+			<dd>element of Hypertext Markup Language</dd>
+			<dt><em>The Semantic Web</em></dt>
+			<dd>This direction of development of the World Wide Web, the aim of which is to provide information in a form switable for machine processing</dd>
+		<hr />
+		<table border="1px">
+			<caption>CSS Generated content for pseudo-elements</caption>
 			<thead>
 				<th>IE</th>
 				<th>Firefox</th>
@@ -102,54 +102,54 @@
 				</tr>
 			</tfoot>
 		</table>
-		<hr>
+		<hr/>
 		<form action="http://httpbin.org/" method="get" name="form1">
 		<fieldset>
 			<legend>Personal data</legend>
-			<label>Surname<input width="30" name="surName"></label>
-			<br><br>
-			<label>First Name<input width="30" name="firstName"></label>
-			<br><br>
-			<label>Middle name<input width="30" name="middleName"></label>
-			<br><br>
+			<label>Surname<input width="30" name="surName" /></label>
+			<br /><br />
+			<label>First Name<input width="30" name="firstName" /></label>
+			<br /><br /><br /></br />
+			<label>Middle name<input width="30" name="middleName" /></label>
+			<br /></br /><br />
 			You are
 			<label>
-				<input type="radio" name="pol" checked="checked" value="male">
+				<input type="radio" name="pol" checked="checked" value="male"/>
 				male
 				
 			</label>
 			<label>
-				<input type="radio" name="pol" value="female">
+				<input type="radio" name="pol" value="female" />
 				female
 				
 			</label>
-				<br><br>
-				<label>Age<input width="30" type="number" name="age" min="18" max="101"></label>
-				<br><br>
+				<br /><br />
+				<label>Age<input width="30" type="number" name="age" min="18" max="101" /></label>
+				<br /><br />
 				Country of Residence
-				<select name="CountryOfResidence">
+				<input list="CountryOfResidence" />
+				<datalist id="CountryOfResidence">
 					<option value="Russia">Russia</option>
 					<option value="Ukraine">Ukraine</option>
 					<option value="UK">UK</option>
 					<option value="USA">USA</option>
-				</select>
+				</datalist>
 					
-			<br><br>
+			<br /><br />
 			City
 			<label>
-				<input type="checkbox" name="city" value="ryazan">
+				<input type="checkbox" name="city" value="ryazan" />
 				Ryazan
-				
 			</label>
 			<label>
-				<input type="checkbox" name="city" value="moscow">
+				<input type="checkbox" name="city" value="moscow" />
 				Moscow
 			</label>
-			<br>
+			<br />
 			Photography
-			<input type="file" value="Выберите файл">
-			<hr>
-			<br>
+			<input type="file" value="Выберите файл" />
+			<hr />
+			<br />
 			Title
 			<select name="title" size="8">
 				<optgroup label="Technologies">
@@ -163,10 +163,10 @@
 					<option value="Budgeting">Budgeting and planning</option></li>
 				</optgroup>
 			</select>
-			<br>
+			<br />
 			Salary
-			<input type="range">
-			<br><br>
+			<input type="range" />
+			<br /><br />
 			<textarea placeholder="Tell us about yourself..." rows="10" cols="50" id="about yourself"></textarea>
 		</fieldset>
 		<fieldset>
@@ -174,18 +174,18 @@
 				Contact Information
 			</legend>
 			<label>Site<input width="30" name="site"></label>
-			<br><br>
-			<label>Email<input width="30" name="email"></label>
-			<br><br>
+			<br /><br />
+			<label>Email<input type="email" width="30" name="email"></label>
+			<br /><br />
 			<label>Phone<input width="30" name="phone"></label>
-			<br>
+			<br />
 		</fieldset>
-		<br>
+		<br />
 		Password
-		<input type="password" name="passWord" width="30">
-		<br><br>
-		<input type="submit">	
-		<input type="reset">
+		<input type="password" name="passWord" width="30" />
+		<br /><br />
+		<input type="submit" />	
+		<input type="reset" />
 		</form>
 	</body>
 
