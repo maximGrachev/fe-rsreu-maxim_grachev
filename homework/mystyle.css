@@ -1,0 +1,48 @@
+body{
+	background-color: #FFFFEF;
+}
+h1{
+	background-color: rgba(242,255,239, 0.3);
+	font-size: 20px;
+	font-family: Verdana;
+}
+h2, h3{
+	background-image: url(https://asterial.ru/uploads/header.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 100%;            
+	height: 100%;
+	margin: 20px;
+	padding: 40px; 
+	font-family: Arial;
+}
+p{
+	text-align: justify;
+}
+.paragraph{
+	font-family: monospace;
+	color: grey;
+	text-transform: lowercase;
+}
+#par1{
+	text-decoration: underline;
+	color: #FF0000;
+	font-variant: small-caps;
+}
+.paragraph_1{
+	font-style: italic;
+	line-height: 50px;
+}
+span{
+	text-decoration: overline;
+	vertical-align: super;
+	word-spacing: -4px;
+}
+#end{
+	direction: rtl;
+	letter-spacing: 40px;
+	text-shadow: 2px 2px 10px gold;
+}
+.class{
+	text-align: center;
+}
