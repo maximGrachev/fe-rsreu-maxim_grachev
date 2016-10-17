@@ -1,0 +1,31 @@
+table{
+	width: 50%;
+	color: #7c8c9c;
+	font-family: Arial;
+	font-size: 14px;
+}
+.even{
+	background-color: #e3eaf3;
+}
+.odd{
+	background-color: #f2f6fa;
+}
+th {
+	background-color: #e3eaf3;
+	text-transform: uppercase;
+	font-weight: 400;
+	
+}
+.capital{
+	text-transform: capitalize;
+}
+td{
+	vertical-align: middle;
+	text-align: center;
+	height: 50px;
+}
+tr:hover{
+	background-color: #e2e5e9;
+}
+
+
