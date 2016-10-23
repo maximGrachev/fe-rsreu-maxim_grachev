@@ -1,0 +1,29 @@
+a {
+	font-size: 20pt; 
+	color: blue;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	display: inline-block;
+}
+a.anim {
+	border-right: 2px solid red;
+	transition-property: border-right;
+	transition-duration: 1s;
+}
+a.anim:hover{
+	border-right: none;
+}
+a.anim:after {
+    display: block;
+    content: "";
+	height: 3px;
+    width: 0%;
+    background-color: blue;
+    transition-property: width;
+	transition-duration: 1s;
+}
+a.anim:hover:after {
+    width: 130%;
+}
+

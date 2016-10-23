@@ -1,0 +1,21 @@
+@media screen{
+p{
+	margin-left: 5px;
+	padding-left: 20px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #cad8d0;
+}
+}
+@media handheld and (max-width: 500px){
+	p{
+	width: 500px;
+	margin-left: 5px;
+	padding-left: 20px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #cad8d0;
+}
+}

@@ -1,0 +1,32 @@
+#one{
+	border: 2px solid #cccccc;
+	width: 200px;
+    background: white;
+    height: 150px;
+}
+#two{
+	margin-top: 25px;
+	margin-left: 50px;
+	width: 100px;
+	height: 100px;
+	background-color: #00bc9e;
+	border-radius: 50%;
+}
+button{
+	margin-top: 30px;
+	margin-left: 25px;
+	color: #d0eeff;
+	font-family: Arial;
+	text-align: center;
+	font-size: 21px;
+	width: 150px;
+	height: 40px;
+	background-image: radial-gradient(ellipse at center, #585fe7, #868dcb);
+	border: 3px double white;
+	border-radius: 15px;
+	transition-property: box-shadow;
+	transition-duration: 1s;
+}
+button:hover{
+	box-shadow: 0 0 30px #b6d9dc;
+}

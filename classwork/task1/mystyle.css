@@ -1,0 +1,92 @@
+button{
+	width:100px;
+	height:100px;
+	border: none;
+	margin: 5px;
+	text-align: center;
+	font-size: 21px;
+	background-color: #3498db;
+	color: white;
+	font-family: Arial;
+}
+img{
+	width: 100px;
+	margin-top: 5px;
+	margin-left: 120px;
+}
+#one{
+	transition-property: color;
+	transition-property: background-color;
+	transition-duration: 1s;
+}
+#one:hover{
+	background-color: white;
+	color: #3498db;
+}
+
+#two{
+	transition-property: opacity;
+	transition-duration: 1s;
+}
+#two:hover{
+	opacity: 0;
+}
+#three{
+	transition-property: transform;
+	transition-property: opacity;
+	transition-duration: 1s;
+}
+#three:hover{
+	transform: scale(2);
+	opacity: 0;
+}
+#four{
+	transition-property: border;
+	transition-duration: .5s;
+}
+#four:hover{
+	border: 15px solid white;
+}
+#five{
+	transition-property: transform;
+	transition-duration: 1s;
+}
+#five:hover{
+	transform: rotate(90deg);
+}
+#six{
+	transition-property: transform;
+	transition-duration: 1s;
+}
+#six:hover{
+	transform: scale(1, 0);
+}
+#seven{
+	transition-property: transform;
+	transition-duration: 1s;
+}
+#seven:hover{
+	transform: scale(0);
+}
+#eight{
+	transition-property: transform;
+	transition-duration: 1s;
+}
+#eight:hover{
+	transform: scale(1.5, 0);
+}
+#nine{
+	transition-property: transform;
+	transition-duration: 1s;
+	
+}
+#nine:hover{
+	transform: skew(45deg, 45deg);
+}
+#ten{
+	transition-property: box-shadow;
+	transition-duration: 1s;
+}
+#ten:hover{
+	box-shadow: 0 0 30px green;
+}

@@ -1,0 +1,20 @@
+h1{
+	margin-top: 20px;
+	margin-left: 5px;
+	padding-top: 30px;
+	padding-left: 20px;
+	color: white;
+	background-color: #569099;
+	font-size: 20;
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-bottom: 30px;
+}
+p{
+	margin-left: 5px;
+	padding-left: 20px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #cad8d0;
+}
