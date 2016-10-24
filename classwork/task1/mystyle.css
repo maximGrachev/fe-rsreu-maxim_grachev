@@ -9,11 +9,6 @@ button{
 	color: white;
 	font-family: Arial;
 }
-img{
-	width: 100px;
-	margin-top: 5px;
-	margin-left: 120px;
-}
 #one{
 	transition-property: color;
 	transition-property: background-color;
@@ -84,9 +79,17 @@ img{
 	transform: skew(45deg, 45deg);
 }
 #ten{
+	width: 100px;
+	margin-top: 5px;
+	margin-left: 120px;
 	transition-property: box-shadow;
-	transition-duration: 1s;
+	transition-duration: 1s;	
+}
+img{
+	position: relative;
+	z-index: -1;
+	width: 100px;
 }
 #ten:hover{
-	box-shadow: 0 0 30px green;
+	box-shadow: inset 0 0 20px rgba(0,0,0,0.6);
 }

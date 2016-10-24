@@ -1,16 +1,7 @@
-#one{
-	border: 2px solid #cccccc;
-	width: 200px;
-    background: white;
-    height: 150px;
-}
-#two{
-	margin-top: 25px;
-	margin-left: 50px;
-	width: 100px;
-	height: 100px;
-	background-color: #00bc9e;
-	border-radius: 50%;
+div{
+	background: radial-gradient(circle closest-side, #00bc9e 20px, white 21px);
+	height: 60px;
+	border: 2px solid gray;
 }
 button{
 	margin-top: 30px;
