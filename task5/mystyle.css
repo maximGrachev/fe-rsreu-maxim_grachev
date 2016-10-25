@@ -1,0 +1,47 @@
+.main{
+	display: flex;
+	background-color: #004b89;
+	height: 40px;
+	justify-content: space-between;
+}
+.main-left{
+	display: flex;
+}
+.main-right{
+	display: flex;
+	
+}
+img{
+	padding: 12px;
+	height: 40%;
+}
+.menu{
+	display: flex;
+	background-color: #397bb2;
+	margin-right: 5px;
+}
+.menu:hover{
+	background-color: #e03838;
+}
+.info{
+	display: flex;
+	color: white;
+	background-color: red;
+	border-radius: 50%;
+	height: 50%;
+}
+.exit{
+	display: block;
+	color: white;
+	height: 100%;
+	width:auto;
+	background-color: #2f2f35;
+}
+.info{
+	 padding: 5px 10px;
+	 margin: 5px 0 0 -10px;
+}
+.label{
+	padding: 10px;
+	height: 20px;
+}

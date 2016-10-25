@@ -1,0 +1,31 @@
+body{
+	font-family: Arial;
+}
+#out{
+	background-color: #edecde;
+	border: 7px solid #9eded0;
+	border-radius: 5px;
+	box-shadow: 0 0 2px #81bdaf;
+	
+}
+#arrow{
+	margin-left: 20px;
+	width: 0;
+	border: 20px solid transparent;
+	border-top: 20px solid #ffcb00; 
+}
+h1{ 
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: 100;
+	font-size: 20pt;
+	margin: 0;
+	background-color: #ffcb00;
+}
+p{
+	display: block;
+	margin-top: -15px;
+	margin-left: 10px;
+	color: #6d89a5;
+}

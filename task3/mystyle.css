@@ -1,0 +1,28 @@
+body{
+	font-family: Arial;
+	color: #8259ce;
+	
+}
+div{
+	background-color: #a68bdd;
+	
+	
+}
+#caption{
+	position: relative;
+	z-index: 2;
+	font-size: 16pt;
+	border-radius: 5px 5px 0 0;
+	text-align: center;
+	width: 115px;
+	border: 2px solid #6465cb;
+	box-shadow: 0 -2px 5px #929292;
+}
+#main{
+	z-index: 2;
+	position: relative;
+	display: block;
+	border-radius:0 0 5px 5px;
+	height: 200px;
+	box-shadow: 0 0 15px #929292;
+}
