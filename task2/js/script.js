@@ -1,5 +1,5 @@
 //1
-function is_palindrome(word) {
+function isPalindrome(word) {
     var reversWordArray = [];
     var reversWord = '';
 
@@ -60,9 +60,9 @@ function longWord(phrase) {
     var lenght = phrase.length;
     var max = 0;
 
-    for (var q = 0; q < lenght; q++) {
-        if (phrase[q] !== " ") {
-            word = word + phrase[q];
+    for (var m = 0; m < lenght; m++) {
+        if (phrase[m] !== " ") {
+            word = word + phrase[m];
         }
         else {
             if (word.length > max) {
@@ -78,16 +78,16 @@ function longWord(phrase) {
 function orderWithoutUnique(word) {
     var result = "";
 
-    for (var t = 0; t < word.length; t++) {
+    for (var i = 0; i < word.length; i++) {
         var check = true;
 
-        for (var t1 = 0; t1 < t; t1++) {
-            if (word[t1] == word[t]) {
+        for (var j = 0; j < i; j++) {
+            if (word[j] == word[i]) {
                 check = false;
             }
         }
         if (check == true) {
-            result = result + word[t];
+            result = result + word[i];
         }
     }
 
