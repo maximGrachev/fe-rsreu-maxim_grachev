@@ -1,0 +1,19 @@
+body{
+    font-family: "Comic Sans MS";
+}
+#tasksField{
+   font-size:15px;
+    margin: 20px 0;
+    padding:10px 5px;
+    border: solid 1px gold;
+    width:100%;
+    height: 250px;
+    overflow-y: scroll;
+    background: #F6DE9E;
+}
+input[type="checkbox"]{
+    float: left;
+}
+#tasksField>div{
+    cursor: pointer;
+}
