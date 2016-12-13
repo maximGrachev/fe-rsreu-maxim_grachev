@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css\mystyle.css" />
+		<title>Library</title>
+	</head>
+	<body>
+		<header>
+			<div class="header">
+				<div class="header__right">
+					<div class="header__right--gray">
+						<span class="header__span">Help center</span>
+						<img src="assets\icons\gray_round.png" />
+						<span class="header__span">Our Support</span>
+					</div>
+					<div class="header__right--blue">
+						<img src="assets\icons\user.jpg" class="user-pic" />
+						<span class="header__span">John Doe</span>
+						<img src="assets\icons\arrow.png" class="arrow-pic"/> 
+					</div>
+				</div>
+			</div>
+		</header>
+		<div id="center-elements">
+			<aside>
+				<div class="menu">
+						<div class="menu__block1">
+							<form id="add-book-form">
+								<button type="submit" id="addBook"><b>+</b>   ADD A BOOK</button>
+								<input id="titleOfBook" type="text" placeholder="Title of book" autofocus required />
+								<input id="autorOfBook" type="text" placeholder="Autor of book" required />
+							</form>
+						</div>
+						<ul class="menu__block2">
+							<li id="nowReading">Now Reading</li>
+							<li id="browse">Browse</li>
+							<li id="buyBooks">Buy Books</li>
+							<li id="favouriteBooks">Favourite Books</li>
+							<li id="wishlist">Wishlist</li>
+							<li id="history">History</li>
+						</ul>
+						<ul class="menu__block3">
+							<li><img src="assets\icons\red_round.png" />Must Read Titles</li>
+							<li><img src="assets\icons\yellow_round.png" />Best Of List</li>
+							<li><img src="assets\icons\blue_round.png" />Classic Novels</li>
+							<li><img src="assets\icons\indigo_round.png" />Non Fiction</li>
+						</ul>
+						<div class="menu__block4">
+							<ul class = "menu__block4__ul">
+							</ul>
+						</div>
+				</div>
+			</aside>	
+			<main>
+				<div class="main">
+					<div class="main__one">
+						<span>Browse Available Books</span>
+					</div>
+					<div class="main__two">
+						<div class="main__two__left">
+							<input name="filter" checked="checked" type="radio" class="main__two__buttons" id="all_books"/><label class="main__two__labeles" for="all_books">All Books</label>
+							<input name="filter" type="radio" class="main__two__buttons" id="most_recent"/><label class="main__two__labeles" for="most_recent">Most Recent</label>
+							<input name="filter" type="radio" class="main__two__buttons" id="most_popular"/><label class="main__two__labeles" for="most_popular">Most Popular</label>
+							<input name="filter" type="radio" class="main__two__buttons" id="free_books"/><label class="main__two__labeles" for="free_books">Free Books</label>
+						</div>
+						<div class="search">
+							<input type="search" name="search" placeholder="Enter Keywords" id = "searchPlace" required/>
+							<input type="submit" value="" id = "buttonPlace"/>
+						</div>
+					</div>
+					<div class="main__three">
+						
+					</div>
+				</div>
+			</main>
+		</div>
+		<footer>
+			<div class="footer">
+				<div class="footer__right">
+					<div class="footer__right__gray">
+						<img class="footer__img" src="assets\icons\question.png" />
+					</div>
+					<div class="footer__right__blue">
+						<img class="footer__img" src="assets\icons\setting.png" />
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	<script language="javascript" type="text/javascript" src="js/model/notification.types.js"></script>
+	<script language="javascript" type="text/javascript" src="js/utils/book.utils.js"></script>
+	<script language="javascript" type="text/javascript" src="js/model/book.model.js"></script>
+	<script language="javascript" type="text/javascript" src="js/model/notification.model.js"></script>
+	<script language="javascript" type="text/javascript" src="js/storage/books.storage.js"></script>
+	<script language="javascript" type="text/javascript" src="js/storage/notification.storage.js"></script>
+	<script language="javascript" type="text/javascript" src="js/view/books.view.js"></script>
+	<script language="javascript" type="text/javascript" src="js/controller/books.controller.js"></script>
+	<script language="javascript" type="text/javascript" src="js/main.js"></script>
+    </script>
+	</body>
+</html> 
